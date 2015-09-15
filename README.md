@@ -209,15 +209,11 @@ All of these fields are optional - only override the things you need to.
 cordova.plugins.backgroundMode.setDefaults({
     title:  String,
     ticker: String,
-    text:   String
-})
-```
-
-By default the app will come to foreground when taping on the notification. That can be changed also.
-
-```javascript
-cordova.plugins.backgroundMode.setDefaults({
-    resume: false
+    text:   String,
+    icon: "icon" // this will look for icon.png in platforms/android/res/drawable
+    resume: true / false,
+    color: "#123456",
+    isPublic: true / false,
 })
 ```
 
