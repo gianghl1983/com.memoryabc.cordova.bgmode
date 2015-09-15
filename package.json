@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-bgmode",
-  "version": "0.6.4",
+  "version": "jomo-0.6.4",
   "description": "Cordova Background Mode Plugin",
   "cordova": {
     "id": "cordova-plugin-bgmode",
