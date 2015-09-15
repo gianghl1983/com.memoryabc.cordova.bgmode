@@ -1,0 +1,45 @@
+{
+  "name": "cordova-plugin-bgmode",
+  "version": "0.6.4",
+  "description": "Cordova Background Mode Plugin",
+  "cordova": {
+    "id": "cordova-plugin-bgmode",
+    "platforms": [
+      "firefoxos",
+      "tizen",
+      "android",
+      "amazon-fireos",
+      "ubuntu",
+      "ios",
+      "blackberry10",
+      "wp7",
+      "wp8",
+      "windows8",
+      "windows",
+      "browser"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jomo0825/cordova-plugin-background-mode.git"
+  },
+  "keywords": [
+    "cordova",
+    "device",
+    "ecosystem:cordova",
+    "cordova-firefoxos",
+    "cordova-tizen",
+    "cordova-android",
+    "cordova-amazon-fireos",
+    "cordova-ubuntu",
+    "cordova-ios",
+    "cordova-blackberry10",
+    "cordova-wp7",
+    "cordova-wp8",
+    "cordova-windows8",
+    "cordova-windows",
+    "cordova-browser"
+  ],
+  "author": "Sebastián Katzer, Menardi, Jomo",
+  "license": "Apache 2.0"
+}
