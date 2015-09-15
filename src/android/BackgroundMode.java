@@ -59,6 +59,8 @@ public class BackgroundMode extends CordovaPlugin {
     // Tmp config settings for the notification
     private static JSONObject updateSettings;
 
+    ForegroundService mService;
+
     // Used to (un)bind the service to with the activity
     private final ServiceConnection connection = new ServiceConnection() {
 
