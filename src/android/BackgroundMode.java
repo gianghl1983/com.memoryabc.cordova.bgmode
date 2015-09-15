@@ -63,8 +63,9 @@ public class BackgroundMode extends CordovaPlugin {
     private final ServiceConnection connection = new ServiceConnection() {
 
         @Override
-        public void onServiceConnected(ComponentName name, IBinder binder) {
-            // Nothing to do here
+        public void onServiceConnected(ComponentName name, IBinder service) {
+            ForegroundService.ForegroundBinder binder = (ForegroundService.ForegroundBinder) service;
+            mService = binder.getService();
         }
 
         @Override
@@ -216,8 +217,7 @@ public class BackgroundMode extends CordovaPlugin {
      */
     private void updateNotifcation() {
         if (isBind) {
-            stopService();
-            startService();
+            mService.updateNotification();
         }
     }
 
