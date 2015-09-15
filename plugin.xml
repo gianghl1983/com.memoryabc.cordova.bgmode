@@ -2,7 +2,7 @@
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
-        id="cordova-plugin-bgmode"
+        id="com.memoryabc.cordova.bgmode"
         version="0.7.0">
 
     <name>BackgroundMode</name>
@@ -11,7 +11,7 @@
         Cordova plugin to prevent the app from going to sleep in background.
     </description>
 
-    <repo>https://github.com/jomo0825/cordova-plugin-background-mode</repo>
+    <repo>https://github.com/jomo0825/com.memoryabc.cordova.bgmode</repo>
 
     <keywords>appplant, background</keywords>
 
@@ -20,11 +20,11 @@
     <author>Sebastián Katzer, Menardi, Jomo</author>
 
     <!-- dependencies -->
-    <!-- update according to Menardi
+    <!-- update according to Menardi -->
     <dependency id="org.apache.cordova.device" />
-    -->
+    <!--
     <dependency id="cordova-plugin-device" />
-
+    -->
     <!-- cordova -->
     <engines>
         <engine name="cordova" version=">=3.0.0" />
