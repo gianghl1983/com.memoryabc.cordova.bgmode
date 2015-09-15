@@ -3,7 +3,7 @@
   "version": "0.7.0",
   "description": "Cordova Background Mode Plugin",
   "cordova": {
-    "id": "cordova-plugin-bgmode",
+    "id": "org.apache.cordova.device",
     "platforms": [
       "firefoxos",
       "tizen",
