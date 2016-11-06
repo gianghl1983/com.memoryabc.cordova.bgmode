@@ -21,7 +21,7 @@
 
     <!-- dependencies -->
     <!-- update according to Menardi -->
-    <dependency id="org.apache.cordova.device" />
+    <dependency id="cordova-plugin-device" />
     <!--
     <dependency id="cordova-plugin-device" />
     -->
